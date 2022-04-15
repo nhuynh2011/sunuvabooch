@@ -1,0 +1,8 @@
+::ng-deep * {
+
+}
+
+.sticky {
+  position: sticky;
+  width: 100%;
+}

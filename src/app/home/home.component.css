@@ -1,0 +1,11 @@
+body {
+  background-color: #001F5C;
+  font-family: Baskerville, sans-serif;
+}
+
+@media only screen and (min-width: 600px) {
+  .kassidy-hand {
+    width: 600px;
+
+  }
+}

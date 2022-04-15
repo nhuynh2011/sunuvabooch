@@ -1,1 +1,12 @@
+@charset "utf-8";
 /* You can add global styles to this file, and also import other style files */
+
+@font-face {
+  font-family: "Arial Rounded MT Pro Cyr";
+  src: url("//db.onlinewebfonts.com/t/42e45c375d309b42c992a37b6b277422.eot");
+  src: url("//db.onlinewebfonts.com/t/42e45c375d309b42c992a37b6b277422.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/42e45c375d309b42c992a37b6b277422.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/42e45c375d309b42c992a37b6b277422.woff") format("woff"), url("//db.onlinewebfonts.com/t/42e45c375d309b42c992a37b6b277422.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/42e45c375d309b42c992a37b6b277422.svg#Arial Rounded MT Pro Cyr") format("svg");
+}
+
+:root {
+  --main-primary-font: "Arial Rounded MT Pro Cyr";
+}
