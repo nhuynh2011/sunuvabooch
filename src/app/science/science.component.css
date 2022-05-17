@@ -1,0 +1,8 @@
+.text-chunk {
+  padding: 50px;
+  max-width: 500px;
+  margin: 10px;
+}
+.longword{
+  white-space: pre;
+}

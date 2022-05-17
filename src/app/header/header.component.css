@@ -10,7 +10,10 @@ a {
   color: whitesmoke;
   text-decoration: none;
 }
+.headerVanish {
+  animation-duration: 5s;
 
+}
 .mobile-nav {
   background-color: #D8A210;
   width: 100%;
