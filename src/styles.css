@@ -10,3 +10,8 @@
 :root {
   --main-primary-font: "Arial Rounded MT Pro Cyr";
 }
+
+body {
+  background-color: #001F5C;
+  font-family: Baskerville, sans-serif;
+}

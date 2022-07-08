@@ -1,157 +1,101 @@
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <script>
-    document.addEventListener("DOMContentLoaded", function (event) {
-      console.log("DOM fully loaded and parsed");
-    });
-  </script>
-  <script>
-    const {LottieInteractivity} = require("@lottiefiles/lottie-interactivity");
-    LottieInteractivity.create({
-      mode: "scroll",
-      player: '#firstLottie',
-      actions: [
-        {
-          visibility: [0, 1],
-          type: "seek",
-          frames: [0, 119],
-        },
-      ]
-    });
-  </script>
+<div>
+  <section style="padding: 50px;">
+    <div class="has-text-centered">
+      <figure class="is-inline-block">
+        <img src="./assets/Untitled_Artwork_squoosh.webp" class="kassidy-hand is-center is-flex" style="margin-bottom: -7px;" width="200px"
+            height="100px;">
+      </figure>
+      <hr style="margin-top: 0 !important;">
+      <h1 class="title is-1 has-text-white">
+        Small batch Kombucha
+      </h1>
 
-  <script type="text/javascript">
-    var playAnimation = function () {
-      document.querySelector('lottie-animation').get(0).play();
-    }
-  </script>
-</head>
-<body style="font-family: 'Arial Rounded MT Pro Cyr',sans-serif">
+      <p class="subtitle is-2 has-text-white">
+        Brewed & Bottled in Shrewsbury, UK
+      </p>
 
-<section style="padding: 50px;">
-  <div class="has-text-centered">
-    <figure class="is-inline-block">
-      <img src="./assets/Untitled_Artwork_squoosh.webp" class="kassidy-hand is-center is-flex" style="margin-bottom: -7px;" width="200px"
-           height="100px;">
-    </figure>
-    <hr style="margin-top: 0 !important;">
-    <h1 class="title is-1 has-text-white">
-      Small batch Kombucha
-    </h1>
+      <hr>
+    </div>
+  </section>
 
-    <p class="subtitle is-2 has-text-white">
-      Brewed & Bottled in Shrewsbury, UK
-    </p>
+  <section class="web_homePage" (scroll)="onWindowScroll($event);">
+  </section>
 
-    <hr>
-  </div>
-</section>
+  <section>
+    <div class="block"></div>
+    <div class="columns" style="padding: 50px;">
+      <div class="column has-text-centered is-center">
+        <div class="has-text-centered">
+          <figure class="is-128x128 is-inline-block">
+            <lottie-player
+              autoplay
+              loop
+              speed="1" style="width: 100px; height: 100px;"
+              src="./assets/white_tea_json.json">
+            </lottie-player>
+          </figure>
+        </div>
+        <div>
+          <h1 class="title has-text-white">Health focused</h1>
+          <p class="subtitle  is-4 has-text-white">
+            Kombucha is a probiotic beverage crafted from fermented sweet tea. Beneficial microorganisms thrive in every
+            bottle, converting sugar into vitamins, minerals and antioxidants.
 
-<section class="web_homePage" (scroll)="onWindowScroll($event);">
-
-</section>
-
-<section>
-
-  <div class=" block"></div>
-  <div class="columns" style="padding: 50px;">
-    <div class="column has-text-centered is-center">
-      <div class="has-text-centered">
-        <figure class="is-128x128 is-inline-block">
-          <lottie-player
-            autoplay
-            loop
-            speed="1" style="width: 100px; height: 100px;"
-            src="./assets/white_tea_json.json">
-          </lottie-player>
-        </figure>
+          </p>
+        </div>
       </div>
-      <!--      <div class="subtitle is-5">-->
-      <!--        Good for local business-->
-      <!--      </div>-->
-      <div>
-        <h1 class="title has-text-white">Health focused</h1>
 
+      <div class="column has-text-centered is-center">
+        <div class="has-text-centered">
+          <figure class="is-128x128 is-inline-block">
+            <lottie-player id="firstLottie" class="is-justify-content-center is-flex"
+                          src="https://assets5.lottiefiles.com/private_files/lf30_rwpu0mow.json" mode=""
+                          background="transparent" speed="1" style="width: 100px; height: 100px;"
+                          autoplay></lottie-player>
+          </figure>
+        </div>
+        <h1 class="title has-text-white">Sustainably designed</h1>
+        <p class="subtitle is-4 has-text-white">
 
-        <p class="subtitle  is-4 has-text-white">
-          Kombucha is a probiotic beverage crafted from fermented sweet tea. Beneficial microorganisms thrive in every
-          bottle, converting sugar into vitamins, minerals and antioxidants.
-
+          <i class="fa-thin fa-leaf"></i>
+          I start by brewing loose-leaf tea from a local tea shop, adding just enough sugar to keep our microscopic
+          friends
+          happy and performing their best. <br> <br>I flavour each batch with locally-sourced fruits, veggies and herbs -
+          organic
+          where available. I take care to avoid plastics and bottle only in glass.
         </p>
       </div>
-    </div>
 
-    <div class="column has-text-centered is-center">
-      <div class="has-text-centered">
+      <div class="column has-text-centered is-center">
+        <div class="has-text-centered">
+          <figure class="is-128x128 is-inline-block">
 
+          </figure>
 
-        <figure class="is-128x128 is-inline-block">
-
-
-          <lottie-player id="firstLottie" class="is-justify-content-center is-flex"
-                         src="https://assets5.lottiefiles.com/private_files/lf30_rwpu0mow.json" mode=""
-                         background="transparent" speed="1" style="width: 100px; height: 100px;"
-                         autoplay></lottie-player>
-        </figure>
-
-
+        </div>
+        <h1 class="title has-text-white">Never boring</h1>
+        <p class="subtitle is-4 has-text-white">
+          The result is a zingy, refreshing, slightly-sweet, slightly-tart, sparkling drink that is sure to put a little
+          pep
+          in your step.
+        </p>
       </div>
-      <!--      <div class="subtitle is-5">-->
-      <!--        Good for the planet-->
-      <!--      </div>-->
-      <h1 class="title has-text-white">Sustainably designed</h1>
-      <p class="subtitle is-4 has-text-white">
 
-        <i class="fa-thin fa-leaf"></i>
-        I start by brewing loose-leaf tea from a local tea shop, adding just enough sugar to keep our microscopic
-        friends
-        happy and performing their best. <br> <br>I flavour each batch with locally-sourced fruits, veggies and herbs -
-        organic
-        where available. I take care to avoid plastics and bottle only in glass.
-      </p>
     </div>
 
-    <div class="column has-text-centered is-center">
-      <div class="has-text-centered">
-        <figure class="is-128x128 is-inline-block">
-
-        </figure>
-
+    <div>
+      <div class="box block">
+        <p class="subtitle is-4">
+          Good for your gut, good for local businesses & good for the planet. Not to mention - completely delicious.
+        </p>
       </div>
-      <!--      <div class="subtitle is-5">-->
-      <!--        Good for you!-->
-      <!--      </div>-->
-      <h1 class="title has-text-white">Never boring</h1>
-      <p class="subtitle is-4 has-text-white">
-        The result is a zingy, refreshing, slightly-sweet, slightly-tart, sparkling drink that is sure to put a little
-        pep
-        in your step.
+      <p class="subtitle is-3 has-text-white" style="float: right;">
+        Sunuva Booch, that's good!
       </p>
     </div>
+  </section>
 
-  </div>
-
-  <div>
-    <div class="box block">
-      <p class="subtitle is-4">
-        Good for your gut, good for local businesses & good for the planet. Not to mention - completely delicious.
-      </p>
-    </div>
-    <p class="subtitle is-3 has-text-white" style="float: right;">
-      Sunuva Booch, that's good!
-    </p>
-  </div>
-</section>
-
-<section>
-  <img width="1000" style="margin-bottom: -10px;" height="1000" src="./assets/Frieda_Approves_webp.webp">
-
-</section>
-</body>
-<h2>
-
-</h2>
+  <section>
+    <img width="1000" style="margin-bottom: -10px;" height="1000" src="./assets/Frieda_Approves_webp.webp">
+  </section>
+</div>
