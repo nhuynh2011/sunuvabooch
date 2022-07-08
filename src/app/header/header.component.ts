@@ -7,27 +7,9 @@ import {Router} from "@angular/router";
   styleUrls: ['./header.component.css']
 })
 export class HeaderComponent implements OnInit {
-  haveClickedHeader= false;
+  haveClickedHeader = false;
   constructor(private router: Router) { }
 
   ngOnInit(): void {
-  }
-
-  haveClickedHome() {
-    this.router.navigate(['/']).then(() => {
-      this.haveClickedHeader = false;
-    });
-  }
-
-  haveClickedAbout() {
-    this.router.navigate(['/']).then(() => {
-      this.haveClickedHeader = false;
-    });
-  }
-
-  haveClickedScience() {
-    this.router.navigate(['/']).then(() => {
-      this.haveClickedHeader = false;
-    });
   }
 }

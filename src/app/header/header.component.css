@@ -1,50 +1,28 @@
-.banner-links {
-
-}
-
-li {
-  list-style: none;
-}
-
 a {
   color: whitesmoke;
-  text-decoration: none;
-}
-.headerVanish {
-  animation-duration: 5s;
-
-}
-.mobile-nav {
-  background-color: #D8A210;
-  width: 100%;
-  height: 50%;
-  top: 0;
-
-  position: sticky;
 }
 
-nav {
-  background-color: #D8A210;
-  transition-property: padding;
-  transition-duration: 1s;
-  transition-timing-function: ease-in;
-  transition-delay: 0s;
-}
-body {
-
+a:hover {
+  background-color: rgba(255,255,255,0);
+  color: rgba(255,255,255,.6);
 }
 
-.font {
-  font-family: "Arial Rounded MT Pro Cyr", sans-serif;
-}
-.img {
-  color: white;
+img {
+  height: 100%;
 }
 
 img:hover {
   cursor: pointer;
 }
 
-a {
-  cursor: pointer;
+.transparent {
+  background-color: rgba(255,255,255,0);
+}
+
+.hamburger-menu {
+  height: auto;
+}
+
+.navbar-item {
+  padding: .5em 1.25em;
 }
