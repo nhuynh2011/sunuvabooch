@@ -24,12 +24,12 @@ export class HomeComponent implements OnInit {
 
   @HostListener('window:scroll', ['$event'])
   onWindowScroll($event: Event) {
-    if (window.pageYOffset > 0) {
-      let element = document.getElementById('navbar');
-      if (element) {
-        element.classList.add('px-6');
-      }
-    }
+    // if (window.pageYOffset > 0) {
+    //   let element = document.getElementById('navbar');
+    //   if (element) {
+    //     element.classList.add('px-6');
+    //   }
+    // }
   }
 
 }

@@ -12,6 +12,6 @@
 }
 
 body {
-  background-color: #001F5C;
+  background-image: linear-gradient(165deg,#234281 5%,rgba(135, 209, 122, 0.85) 121%);
   font-family: Baskerville, sans-serif;
 }
