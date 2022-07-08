@@ -22,3 +22,7 @@ img:hover {
 .hamburger-menu {
   height: auto;
 }
+
+.navbar-item {
+  padding: .5em 1.25em;
+}
