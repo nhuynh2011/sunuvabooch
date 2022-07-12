@@ -10,6 +10,7 @@ import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
 import { AboutComponent } from './about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ScienceComponent } from './science/science.component';
+import { CarbonationComponent } from './carbonation/carbonation.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ScienceComponent } from './science/science.component';
     FooterComponent,
     HomeComponent,
     AboutComponent,
-    ScienceComponent
+    ScienceComponent,
+    CarbonationComponent
   ],
   imports: [
     BrowserAnimationsModule,
