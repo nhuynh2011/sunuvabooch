@@ -15,6 +15,10 @@ img:hover {
   cursor: pointer;
 }
 
+.no-height {
+  height: 0;
+}
+
 .transparent {
   background-color: rgba(255,255,255,0);
 }
