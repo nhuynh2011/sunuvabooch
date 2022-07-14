@@ -3,6 +3,7 @@ app-carbonation {
 }
 
 .full-height-parent {
+  background: linear-gradient(180deg, rgba(218,181,23,1) 0%, rgba(235,199,3,1) 10%, rgba(230,93,36,1) 50%, rgba(152,58,1,1) 80%, rgba(113,0,6,1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -17,4 +18,10 @@ app-carbonation {
 .animation-icon {
   height: 100px;
   width: 100px;
+}
+
+.features {
+  position: relative;
+  background-color: white;
+  padding: 5vh 0;
 }
