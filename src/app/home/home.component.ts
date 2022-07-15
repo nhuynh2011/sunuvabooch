@@ -25,11 +25,11 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
   }
-  @ViewChild("sliderRef") sliderRef: ElementRef<HTMLElement>
+  @ViewChild("sliderRef") sliderRef!: ElementRef<HTMLElement>
 
   currentSlide: number = 0
   dotHelper: Array<Number> = []
-  slider: KeenSliderInstance = null
+  slider: KeenSliderInstance | any = null
 
 
   ngAfterViewInit() {
