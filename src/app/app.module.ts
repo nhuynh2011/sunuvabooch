@@ -11,6 +11,8 @@ import { AboutComponent } from './about/about.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ScienceComponent } from './science/science.component';
 import { CarbonationComponent } from './carbonation/carbonation.component';
+import { SliderComponent } from './slider/slider.component';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CarbonationComponent } from './carbonation/carbonation.component';
     HomeComponent,
     AboutComponent,
     ScienceComponent,
-    CarbonationComponent
+    CarbonationComponent,
+    SliderComponent,
+    CardComponent
   ],
   imports: [
     BrowserAnimationsModule,
